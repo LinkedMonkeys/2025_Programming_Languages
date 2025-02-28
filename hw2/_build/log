@@ -1,0 +1,19 @@
+# dune utop
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /root/.cache/dune/db
+# Workspace root:
+# /mnt/c/Users/matochaj/Documents/2025/spring/programming_languages/code/in-class/hw2
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /root/.opam/default/bin/ocamlc.opt -config > /tmp/dune_9bebbb_output
+$ (cd _build/default && /root/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -bin-annot-occurrences -I .utop/.utop.eobjs/byte -I /root/.opam/default/lib/bytes -I /root/.opam/default/lib/findlib -I /root/.opam/default/lib/lambda-term -I /root/.opam/default/lib/logs -I /root/.opam/default/lib/lwt -I /root/.opam/default/lib/lwt/unix -I /root/.opam/default/lib/lwt_react -I /root/.opam/default/lib/mew -I /root/.opam/default/lib/mew_vi -I /root/.opam/default/lib/ocaml/compiler-libs -I /root/.opam/default/lib/ocaml/threads -I /root/.opam/default/lib/ocaml/unix -I /root/.opam/default/lib/ocplib-endian -I /root/.opam/default/lib/ocplib-endian/bigstring -I /root/.opam/default/lib/react -I /root/.opam/default/lib/result -I /root/.opam/default/lib/trie -I /root/.opam/default/lib/uchar -I /root/.opam/default/lib/utop -I /root/.opam/default/lib/uucp -I /root/.opam/default/lib/uuseg -I /root/.opam/default/lib/uutf -I /root/.opam/default/lib/xdg -I /root/.opam/default/lib/zed -I .hw2.objs/byte -I .hw2challenge.objs/byte -I .json.objs/byte -I .json_structures.objs/byte -no-alias-deps -o .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl .utop/utop.ml-gen)
+$ (cd _build/default && /root/.opam/default/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o .utop/utop.bc /root/.opam/default/lib/ocaml/compiler-libs/ocamlcommon.cma /root/.opam/default/lib/ocaml/compiler-libs/ocamlbytecomp.cma /root/.opam/default/lib/ocaml/compiler-libs/ocamltoplevel.cma /root/.opam/default/lib/findlib/findlib.cma /root/.opam/default/lib/findlib/findlib_top.cma /root/.opam/default/lib/logs/logs.cma /root/.opam/default/lib/lwt/lwt.cma /root/.opam/default/lib/logs/logs_lwt.cma /root/.opam/default/lib/ocplib-endian/ocplib_endian.cma /root/.opam/default/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /root/.opam/default/lib/ocaml/unix/unix.cma /root/.opam/default/lib/ocaml/threads/threads.cma /root/.opam/default/lib/lwt/unix/lwt_unix.cma -I /root/.opam/default/lib/lwt/../stublibs /root/.opam/default/lib/react/react.cma /root/.opam/default/lib/lwt_react/lwt_react.cma /root/.opam/default/lib/result/result.cma /root/.opam/default/lib/uutf/uutf.cma /root/.opam/default/lib/uucp/uucp.cma /root/.opam/default/lib/uuseg/uuseg.cma /root/.opam/default/lib/zed/zed.cma /root/.opam/default/lib/trie/trie.cma /root/.opam/default/lib/mew/mew.cma /root/.opam/default/lib/mew_vi/mew_vi.cma /root/.opam/default/lib/lambda-term/lambda_term.cma -I /root/.opam/default/lib/lambda-term/../stublibs /root/.opam/default/lib/xdg/xdg.cma -I /root/.opam/default/lib/xdg/../stublibs /root/.opam/default/lib/utop/uTop.cma json.cma json_structures.cma hw2.cma hw2challenge.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)
