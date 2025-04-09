@@ -24,6 +24,4 @@ input.each do |s|
     end
 end
 
-
 puts locx.abs + locy.abs
-
