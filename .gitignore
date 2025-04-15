@@ -1,2 +1,6 @@
 NAME/*
 04-07/*.txt
+*.iml
+*.class
+*/out
+*/.idea
